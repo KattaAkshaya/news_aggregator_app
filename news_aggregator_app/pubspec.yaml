@@ -1,0 +1,26 @@
+name: news_aggregator_app # Ensure the name follows lowercase and underscores
+
+description: A news aggregator app using Flutter and Node.js.
+
+publish_to: 'none' # Remove this line if you plan to publish the package.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  http: ^0.13.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+
+  uses-material-design: true
